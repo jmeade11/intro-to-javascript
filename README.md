@@ -58,8 +58,9 @@ refer back to it later. To refer back to it, we give it a name. This is called
 var myName = 'Jennifer'
 ```
 
-The `var` part is the keyword for declaring a variable. The next thing is our
-name for the variable -- this can be anything we want. Then comes an `=`,
+The `var` part is the keyword for declaring a variable. You may have seen this before in sample code.  Using `var` is only one way to declare a variable.  In modern Javascript, we actually have two others: `const` and `let`.  Using these offers us some additional benefits, which you can read about [here](https://medium.freecodecamp.org/javascripts-var-let-and-const-variables-explained-with-a-story-2038e3c6b2f9).
+
+After writing var (or const or let), we need to give our variable a name -- this can be anything we want. Then comes an `=`,
 which means "set `myName` to the string `'Jennifer'`". We can do the same with
 numbers or booleans:
 
